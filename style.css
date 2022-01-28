@@ -348,7 +348,6 @@ html {
 .scamlist {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 15px;
 }
 .scamlist-item {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -434,6 +433,7 @@ html {
 
   .scamlist-info-right {
     flex-direction: column;
+    max-width: 60%;
   }
 
   .scam-content {

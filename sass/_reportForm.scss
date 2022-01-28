@@ -1,0 +1,104 @@
+.container-report-form {
+  margin-top: 30px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.container-form-heading {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+.container-form-user,
+.container-form-phone,
+.container-form-image {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.container-form-scam {
+  position: relative;
+}
+.container-form-scam textarea {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  resize: none;
+  padding: 30px 30px 10px;
+  font-size: 14px;
+  outline: none;
+}
+label {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  
+}
+label div {
+  display: inline-block;
+  color: $primary-color;
+  
+  
+}
+.validation{
+  font-weight: normal;
+  position: relative;
+  left: 10px;
+  color: $primary-color;
+  opacity: 0;
+  visibility: hidden;
+}
+.active{
+  opacity: 1;
+  visibility: visible;
+}
+ion-icon {
+  font-size: 17px;
+}
+input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid $text-color;
+  outline: none;
+  padding: 20px 30px 10px;
+  font-size: 14px;
+}
+.container-form-btn {
+  display: block;
+
+  margin: 50px auto 0;
+}
+
+// toast
+.toast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 250px;
+  width: 100%;
+  background-color: $primary-color;
+  padding: 15px 25px;
+  color: $white-color;
+  border-radius: 8px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transition: all linear 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.toast.active {
+  opacity: 1;
+  visibility: visible;
+}
+@media screen and (max-width: 767.98px) {
+  .container-form-heading {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

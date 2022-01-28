@@ -1,0 +1,24 @@
+html {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+
+  font-size: 17px;
+}
+.container {
+  max-width: 100%;
+
+  margin: 0 auto;
+}
+.btn {
+  padding: 10px;
+  background-color: $primary-color;
+  color: $white-color;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.second {
+  background-color: $second-color;
+}

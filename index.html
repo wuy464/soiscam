@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FRONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- ICONS -->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <title>SoiScam</title>
+  </head>
+  <body>
+    <!-- ++++ HOME PAGES ++++ -->
+    <!-- ============ HEADER ============ -->
+    <header class="header">
+      <div class="header-logo">
+        <ion-icon class="header-logo-menu" name="menu"></ion-icon>
+        <a href="/index.html"> S<span>o</span>i Scam </a>
+      </div>
+      <form class="header-search">
+        <input
+          type="text"
+          class="header-search-input"
+          placeholder="Search for name"
+        />
+        <ion-icon class="header-search-iconSearch" name="search"></ion-icon>
+        <ion-icon class="header-search-iconClose" name="close"></ion-icon>
+      </form>
+      <div class="header-button">
+        <a href="./pages/report.html" class="header-button-btn btn"
+          >Send Report</a
+        >
+      </div>
+    </header>
+
+    <!-- ============ END  HEADER ============ -->
+    <div class="container">
+      <!-- ############ MENU ############ -->
+      <div class="container-menu active">
+        <div class="container-menu-item active">
+          <a href="./index.html">
+            <ion-icon name="home"></ion-icon>
+            Home</a
+          >
+        </div>
+        <div class="container-menu-item">
+          <a href="./pages/introduce.html">
+            <ion-icon name="paper"></ion-icon>
+            Introduce</a
+          >
+        </div>
+        <div class="container-menu-item">
+          <a href="./pages/rules.html">
+            <ion-icon name="clipboard"></ion-icon>
+            Rules</a
+          >
+        </div>
+        <div class="container-menu-item">
+          <a href="./pages/report.html">
+            <ion-icon name="construct"></ion-icon>
+            Report</a
+          >
+        </div>
+      </div>
+      <!-- ######### END MENU ########## -->
+
+      <!-- ########### CONTENT ############## -->
+      <div class="container-content">
+        <h2 class="container-content-title">Check and Report Scammer</h2>
+        <p class="container-content-desc">
+          Website storing <b>scam data</b> on mxh without any search restriction
+          of an algorithm on Facebook. As a place to store
+          <b>evidence of fraud</b>, providing a contribution to promote the data
+          collection process for the investigation of "Department of
+          Cybersecurity and Crime Prevention Using High Technology"
+        </p>
+
+        <div class="container-content-image">
+          <img src="./asset/images/background-2.jpg" alt="" />
+        </div>
+        <h2 class="container-content-title">List of accused</h2>
+        <!-- ########## END CONTENT ########## -->
+        <!-- ######## LIST SCAM ############# -->
+        <div class="scamlist"></div>
+        <!-- ######## END liST SCAM ############# -->
+      </div>
+    </div>
+
+    
+
+    <!-- SCRIPTS -->
+    <script src="./app.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/fetchAPI.js"></script>
+    <!-- ICONS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>

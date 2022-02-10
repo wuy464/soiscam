@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
   const url =
-    "https://61f3934510f0f7001768c4c4.mockapi.io/api/scammer/scammers";
+    "https://61f3934510f0f7001768c4c4.mockapi.io/api/scammer/scam";
   const formReport = document.querySelector(".container-report-form ");
 
   function loading() {

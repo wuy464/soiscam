@@ -1,4 +1,4 @@
-const url = "https://61f3934510f0f7001768c4c4.mockapi.io/api/scammer/scammers";
+const url = "https://61f3934510f0f7001768c4c4.mockapi.io/api/scammer/scam";
 // fetch api
 
 // func render scamitem in scamlist
